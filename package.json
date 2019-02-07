@@ -1,0 +1,36 @@
+{
+  "name": "@james/new-babylonjs",
+  "version": "1.0.0",
+  "description": "This module is for showing custom babylonjs",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production ./node_modules/.bin/webpack -p --color",
+    "build:dev": "cross-env NODE_ENV=development ./node_modules/.bin/webpack --color",
+    "webpack-dev-server": "./node_modules/.bin/webpack-dev-server --content-base www/ --port 5001",
+    "start": "yarn run build:dev && yarn run webpack-dev-server -- --color",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-master111/james-new-babylonjs.git"
+  },
+  "author": "Dev Master",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.4",
+    "html-webpack-plugin": "^3.0.7",
+    "webpack": "3.11.0",
+    "webpack-dev-server": "2.11.1"
+  },
+  "dependencies": {
+    "babylonjs": "^3.3.0",
+    "babylonjs-gui": "^3.3.0",
+    "babylonjs-materials": "^3.3.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.1"
+  }
+}
