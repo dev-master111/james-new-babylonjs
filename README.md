@@ -6,7 +6,7 @@ This is custom library for babylonjs.
 
 ```javascript
 
-yarn add @james/new-babylonjs
+yarn add james-babylonjs
 ```
 
 # How to Import #
