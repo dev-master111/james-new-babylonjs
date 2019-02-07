@@ -6,7 +6,7 @@ This is custom library for babylonjs.
 
 ```javascript
 
-yarn add @corva/well3dviewapp
+yarn add @james/new-babylonjs
 ```
 
 # How to Import #
