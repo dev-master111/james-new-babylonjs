@@ -5,7 +5,7 @@ const isProduction = (process.env.NODE_ENV === 'production');
 
 module.exports = {
   entry: {
-    jamesBabylon: path.join(__dirname, isProduction ? '/src/index.js' : '/src/indexDev.js')
+    jamesBabylon: path.join(__dirname, isProduction ? '/src/index.ts' : '/src/indexDev.js')
   },
   output: isProduction ?
     {

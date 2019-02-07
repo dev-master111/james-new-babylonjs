@@ -1,6 +1,6 @@
 {
   "name": "james-babylonjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module is for showing custom babylonjs",
   "main": "index.js",
   "module": "index.js",
