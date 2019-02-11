@@ -1,4 +1,5 @@
-import BABYLON from './lib/index.ts';
-console.log('imported babylon: ', BABYLON);
+console.log('index dev called !!!!!!!!!');
+import { Babylon } from './lib/index.js';
+console.log('imported babylon: ', Babylon);
 
-window.BABYLON = BABYLON.Babylon;
+window.BABYLON = Babylon;

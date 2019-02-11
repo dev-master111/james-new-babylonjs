@@ -645,25 +645,7 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
 babylon@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
-
-babylonjs-gui@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/babylonjs-gui/-/babylonjs-gui-3.3.0.tgz#373328616cbe467cc9b0b99a3b3cd1318f90c921"
-  integrity sha512-tG5efQOgkDFj9mo1nnwzzSXuHBLxMKc/VZ1B/eGzIsSvdMUxhdEVRNiq4ves1jI4wX59Fdl4vwwra/v01XIMSg==
-  dependencies:
-    babylonjs "3.3.0"
-
-babylonjs-materials@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/babylonjs-materials/-/babylonjs-materials-3.3.0.tgz#f05915c6ff5eefcc2992d16503ee1726d102b2f3"
-  integrity sha512-HGta8f93nYOZkwmOSaXHjhbORpuNevzzIRb11UYYMOYFCHRutONicVKMU4WgHMsQegzZP5NnpR5cS+cHJ1FBRQ==
-  dependencies:
-    babylonjs "3.3.0"
-
-babylonjs@3.3.0, babylonjs@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/babylonjs/-/babylonjs-3.3.0.tgz#f7636c3761cc3260dac8adf26767bc6323e74181"
-  integrity sha512-3Gn9kAEPejJN4+HMKGAKbhsCsrysvaORqi07Bdr9Xmy3KRt/BxyGwepzfcqFIe8+94SWszPDeJC9peICfHdCKw==
+  integrity sha512-q/UEjfGJ2Cm3oKV71DJz9d25TPnq5rhBVL2Q4fA5wcC3jcrdn7+SssEybFIxwAvvP+YCsCYNKughoF33GxgycQ==
 
 balanced-match@^1.0.0:
   version "1.0.0"
